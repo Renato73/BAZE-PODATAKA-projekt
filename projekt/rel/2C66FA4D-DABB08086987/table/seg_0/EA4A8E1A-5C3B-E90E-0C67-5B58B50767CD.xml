@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA4A8E1A-5C3B-E90E-0C67-5B58B50767CD" name="Serviser">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>C1EBDBBB-98C4-52A2-19CB-6F4FF9071767</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Serviser_ID" id="B6FECC94-B2D7-BD41-3376-A728AD06A5F1">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>19607CFF-BB3B-5346-7D70-D1A3CAE3C377</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="FABD0E2C-BD18-07E6-2C7C-0BE0417B02C3">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>7D83B6EF-A615-8357-9775-79036E8BA27A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="79B041EA-0335-2D3F-A8E8-0CB0BE5F4E6A">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>ED44B62A-7887-7732-370D-D35599297D8E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="CC0152B1-8B5E-BC88-5E42-30C4305860AD">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>C8B4B564-12F1-6B61-4E35-FD3CC9854448</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_telefona" id="F63EAE27-C3F6-9F72-AE9B-3CD759719681">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>0D649C0B-B465-1CE8-1980-B14AC1EA571A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OIB" id="A1F95B8F-DF5A-460A-E39E-0B5A96B1D867">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>870E9E4A-C2F4-95FC-5A26-AB8D0F0E3D92</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_rodenja" id="495EE16D-FBCE-7C0E-7516-BFF999783EE7">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>20A06457-3243-B33A-0E3F-7A89BCC78DEB</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5B3D954-10D0-1447-654B-D06BA944FA33" name="Serviser_PK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>F6E05EE4-FC01-3F7D-7E49-9473A2A503A2</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6FECC94-B2D7-BD41-3376-A728AD06A5F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

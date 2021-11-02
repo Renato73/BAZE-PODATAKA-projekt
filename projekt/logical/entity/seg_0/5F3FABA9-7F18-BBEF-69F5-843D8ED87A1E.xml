@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F3FABA9-7F18-BBEF-69F5-843D8ED87A1E" name="Račun">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-14 13:53:08 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Broj_Računa" id="FCC16051-2F0B-704E-8974-54C56FB6A072">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-14 15:36:39 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vrsta_Plačanja" id="5C82CFB5-5692-BC91-AFCE-259DEA426658">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:32:07 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Popust" id="09D96BAB-ECA5-1EF8-1C2B-220576C941EF">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:32:25 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum" id="B0AF10AE-F83E-EE4C-568F-4B85D940C1E8">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 13:25:36 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Trgovac_ID" id="579E3FF0-18A4-B242-C5C9-D704FF770325">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-19 12:18:50 UTC</createdTime>
+<generatorID>0F2A3F4F-0D07-26FF-EC17-8DC22B8BEE9C</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>032292BB-30F9-15E4-9380-A57C2DE83F5E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kupac_ID" id="72F1A6BA-4DF3-2326-7650-60DC33752870">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 15:04:11 UTC</createdTime>
+<generatorID>610786A7-14AB-CBC7-B4E4-DAE6BA095C16</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<referedAttribute>8DFBFAA3-7FA1-C83B-9435-25B9989AA63F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trošak" id="008CB33D-11D7-1CE7-EE7A-51B3E280EB4A">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-30 22:58:37 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5982D269-6074-6703-C4BC-6A6BFA96389C" name="Prodaja PK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-14 15:08:31 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCC16051-2F0B-704E-8974-54C56FB6A072</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

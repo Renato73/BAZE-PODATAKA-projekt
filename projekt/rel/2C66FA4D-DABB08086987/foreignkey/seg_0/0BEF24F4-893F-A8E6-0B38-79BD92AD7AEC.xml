@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0BEF24F4-893F-A8E6-0B38-79BD92AD7AEC" containerWithKeyObject="04C1199B-2E63-5944-BD21-E98F902715F3" localFKIndex="62D2084B-284C-7828-82CB-85934551CC1D" name="Račun_Trgovac_FK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>0F2A3F4F-0D07-26FF-EC17-8DC22B8BEE9C</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<referredTableLongName>Trgovac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ABF8B40D-5D5C-CC19-E9ED-824F9FA08AAC</referredTableID>
+<keyObject>7D0DE0E8-6317-FDFA-D420-78F4FFE7AE38</keyObject>
+<referredKeyID>7D0DE0E8-6317-FDFA-D420-78F4FFE7AE38</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Trgovac_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

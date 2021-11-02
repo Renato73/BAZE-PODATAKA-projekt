@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6CA8CEB0-E8DF-7E48-5B9E-DA7053EA7438" name="Traktori">
+<createdBy>Gule</createdBy>
+<createdTime>2020-04-28 12:47:54 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Taktori_ID" id="FBB33B8D-8999-BD8B-3793-211A9FD031C6">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:30:16 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serijski broj" id="87897063-FEB5-D661-60FB-2617B89362AA">
+<createdBy>Gule</createdBy>
+<createdTime>2020-04-28 14:53:00 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Marka" id="2328A8D5-6E1F-7C95-1A6C-8754B06E1922">
+<createdBy>Gule</createdBy>
+<createdTime>2020-04-28 14:39:05 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KS" id="74CD7AEB-F9A6-7153-167C-B547F28FB635">
+<createdBy>Gule</createdBy>
+<createdTime>2020-04-28 14:39:23 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Godina proizvodnje" id="4E570928-59C9-06F2-D2FB-5FD88C5FB8A3">
+<createdBy>Gule</createdBy>
+<createdTime>2020-04-28 14:40:14 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cijena" id="B1946FA9-A6B2-01BB-BA11-8EE1459C9B13">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 13:23:18 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D142931-9896-BF8B-4373-687A483372E6" name="Traktori PK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-14 13:51:14 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FBB33B8D-8999-BD8B-3793-211A9FD031C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

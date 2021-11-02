@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="74BD425E-1CE0-314A-C37D-68E94D65E357" containerWithKeyObject="B4CDE5A7-7770-87EA-06D3-C27A0C441E15" localFKIndex="D1DEA4B0-021E-27CC-339E-7DE46618CA0D" name="Relation_21_Traktori_FK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>94BFD4CF-83AA-A60A-7750-D64F9B801092</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<referredTableLongName>Traktori</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>564A6542-33D3-B867-8A5C-32E56523112E</referredTableID>
+<keyObject>DF128E9E-3312-E7E5-9A98-74635B2D213F</keyObject>
+<referredKeyID>DF128E9E-3312-E7E5-9A98-74635B2D213F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Taktori_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

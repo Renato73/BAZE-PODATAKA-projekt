@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CF5AF81-C872-AF0F-B1BB-9606438F49CC" name="Priključci">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>2006FAF1-4C46-2750-84EF-9E6534574DAE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Priključci_ID" id="AAE0438E-5A5C-C478-149F-EA5B07985117">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>CAD950B6-094D-C50E-75BD-A6269F2553E1</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Serijski_broj_prikljucka" id="AFF34850-D6A8-B023-3819-AAB2A4A82CE0">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>3E55A8A8-7178-F5B8-6918-DA957603C58D</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="52D24EEF-AF26-4052-DF49-9E305F8D2F88">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>110D6CA1-A995-0580-EE1F-87BC2EB5B39B</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godina_Proizvodnje" id="2B6B062E-1B9C-CC39-AA52-EF03506B8B34">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>02C62A2E-3EEF-6C94-DD2F-293CB12FEB0D</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cijena" id="2A7E35C0-42AE-8D23-3565-3BBA8FBD5712">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>7D428543-057F-9DD3-2864-98312BDB91E7</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37B1168B-1345-7630-0253-8B3270E0C67B" name="Priključci_PK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>4AFD6F17-B809-43E0-6DF6-3E50F259E4E8</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAE0438E-5A5C-C478-149F-EA5B07985117"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

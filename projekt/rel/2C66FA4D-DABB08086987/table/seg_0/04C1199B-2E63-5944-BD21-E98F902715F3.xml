@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04C1199B-2E63-5944-BD21-E98F902715F3" name="Račun">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>5F3FABA9-7F18-BBEF-69F5-843D8ED87A1E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Broj_Računa" id="49970CF1-8149-068A-6841-A4337FCB52E2">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>FCC16051-2F0B-704E-8974-54C56FB6A072</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrsta_Plačanja" id="23DF91B7-738F-F0ED-CA57-63CB63276369">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>5C82CFB5-5692-BC91-AFCE-259DEA426658</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popust" id="708A1D84-FB1A-C017-F643-FF0DBBD83D4B">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>09D96BAB-ECA5-1EF8-1C2B-220576C941EF</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="7EDBF4D2-FFF9-3D9E-9A8A-D2BD5E5D308D">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>B0AF10AE-F83E-EE4C-568F-4B85D940C1E8</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Trgovac_Trgovac_ID" id="5789CE01-4416-6BD1-E5A6-C4E4A34DD450">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>579E3FF0-18A4-B242-C5C9-D704FF770325</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BEF24F4-893F-A8E6-0B38-79BD92AD7AEC" referredColumn="B2414FCE-72FC-0FF2-931B-8E452CEC2DE1"/>
+</associations>
+</Column>
+<Column name="Kupac_Kupac_ID" id="83417137-8397-F91C-0D70-616757879AFF">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>72F1A6BA-4DF3-2326-7650-60DC33752870</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE0F5DFC-A301-BC2A-7992-F63FF57AEA5A" referredColumn="2DCE7EA0-8EEE-347B-1A0D-F013E123A63B"/>
+</associations>
+</Column>
+<Column name="trošak" id="98738D59-EF86-0F3A-4BE0-C515D0C0059B">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-30 23:18:35 UTC</createdTime>
+<generatorID>008CB33D-11D7-1CE7-EE7A-51B3E280EB4A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A9C441F-93E1-7074-7274-6EC09A188F1F" name="Račun_PK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>5982D269-6074-6703-C4BC-6A6BFA96389C</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49970CF1-8149-068A-6841-A4337FCB52E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62D2084B-284C-7828-82CB-85934551CC1D" name="Račun_Trgovac_FK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>0F2A3F4F-0D07-26FF-EC17-8DC22B8BEE9C</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5789CE01-4416-6BD1-E5A6-C4E4A34DD450"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61C78E55-454F-1696-B22B-282CE1E8A0F1" name="Račun_Kupac_FK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>610786A7-14AB-CBC7-B4E4-DAE6BA095C16</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83417137-8397-F91C-0D70-616757879AFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

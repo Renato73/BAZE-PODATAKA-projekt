@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50B47A67-4429-56E7-4940-1F22683700F1" name="Dijelovi">
+<createdBy>Gule</createdBy>
+<createdTime>2020-04-28 12:47:38 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Kataloski_broj" id="A9D0724A-53B2-AA6F-5B02-EE689814A9B4">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 13:23:43 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Skladišni_broj_ID" id="BD2AE457-2C9B-043E-0F34-DB0AA750467A">
+<createdBy>Gule</createdBy>
+<createdTime>2020-04-28 14:42:43 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv " id="7C9D029D-B5F3-22CF-A859-C542275FD6E0">
+<createdBy>Gule</createdBy>
+<createdTime>2020-04-28 14:42:24 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cijena" id="1A92EB00-170E-1FB0-8E20-C4E099429AEC">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 13:23:28 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15B6B8C6-7B27-CC1D-CE74-B97B862701B5" name="Dijelovi PK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-14 13:50:42 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9D0724A-53B2-AA6F-5B02-EE689814A9B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

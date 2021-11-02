@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F524455-7830-9539-7F20-B07B040E0C9B" name="Trgovac">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:22:48 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Trgovac_ID" id="032292BB-30F9-15E4-9380-A57C2DE83F5E">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:23:19 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="857D6DAB-EC12-AD76-373B-0432AEE9B69C">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:23:42 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="C83584B9-0A61-EE41-72A6-131A7D6E52FA">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:23:50 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="885345D0-19FB-9840-3B7D-BA9045EE9ABC">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:23:57 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj telefona" id="1D1E6BD5-8E18-D9F6-03B8-4043C72876B9">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:24:03 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OIB" id="16956203-1CDF-983D-BAF4-FF8FBBAFBD97">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:24:14 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_rodenja" id="E7B4C375-FB09-4986-1698-2011E5F9BAC9">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:24:27 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="91BFC59C-8DEF-8F24-4BE5-CBB7653B2CA5" name="Trgovac PK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:23:39 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>032292BB-30F9-15E4-9380-A57C2DE83F5E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

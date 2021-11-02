@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3AF7593A-F828-B2D1-3F71-AA5D7665797D" containerWithKeyObject="953FEBAF-0B26-B0A0-93AB-FAEABED270B4" localFKIndex="BE16CD86-17F4-EE40-08BA-F77DC04D0B2D" name="Relation_22_Dijelovi_FK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>47542327-33A3-32DB-8F6B-F41EA61ECA5B</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<referredTableLongName>Dijelovi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>52FA6345-7C5E-2D04-EDA6-BB458C1E0788</referredTableID>
+<keyObject>D150DC69-5894-C13D-DE64-929935FB3F5B</keyObject>
+<referredKeyID>D150DC69-5894-C13D-DE64-929935FB3F5B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Skladišni_broj_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

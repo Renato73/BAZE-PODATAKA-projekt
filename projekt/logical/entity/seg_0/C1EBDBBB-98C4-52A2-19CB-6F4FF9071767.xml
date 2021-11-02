@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1EBDBBB-98C4-52A2-19CB-6F4FF9071767" name="Serviser">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:28:33 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Serviser_ID" id="19607CFF-BB3B-5346-7D70-D1A3CAE3C377">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:28:33 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="7D83B6EF-A615-8357-9775-79036E8BA27A">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:28:33 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="ED44B62A-7887-7732-370D-D35599297D8E">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:28:33 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="C8B4B564-12F1-6B61-4E35-FD3CC9854448">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:28:33 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj telefona" id="0D649C0B-B465-1CE8-1980-B14AC1EA571A">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:28:33 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OIB" id="870E9E4A-C2F4-95FC-5A26-AB8D0F0E3D92">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:28:33 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_rodenja" id="20A06457-3243-B33A-0E3F-7A89BCC78DEB">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:28:33 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6E05EE4-FC01-3F7D-7E49-9473A2A503A2" name="Trgovac PK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-18 12:28:33 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19607CFF-BB3B-5346-7D70-D1A3CAE3C377</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

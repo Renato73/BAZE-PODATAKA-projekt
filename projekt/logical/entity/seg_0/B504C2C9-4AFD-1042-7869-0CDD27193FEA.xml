@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B504C2C9-4AFD-1042-7869-0CDD27193FEA" name="Dio za servis">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 15:08:34 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Dio_za_servis" id="28E08402-C6DB-4511-A87C-FF0C06BCE528">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 15:08:48 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opis" id="DFA9E2D8-FB54-F8B1-0B70-74FA69F165FA">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 15:09:12 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kupac_ID" id="C706D9D8-EE14-3EF5-39C2-D9C77D5D9280">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-27 17:46:54 UTC</createdTime>
+<generatorID>7F3AC487-D704-D34F-752D-C9B9AFC3B2B6</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8DFBFAA3-7FA1-C83B-9435-25B9989AA63F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F57AC7D0-6FB5-7375-3EF9-50EB7320C9E9" name="Dio za servis PK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 15:09:01 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28E08402-C6DB-4511-A87C-FF0C06BCE528</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

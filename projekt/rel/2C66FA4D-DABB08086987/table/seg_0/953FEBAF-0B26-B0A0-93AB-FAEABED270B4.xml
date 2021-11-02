@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="953FEBAF-0B26-B0A0-93AB-FAEABED270B4" name="Poveznica_Racun_Dijelovi">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<ordsAlias>relation_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Račun_Broj_Računa" id="5D26E205-521B-AE54-3B4E-888913EB150E">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B74A859-FE1B-F080-254A-C3D79D4AEB96" referredColumn="49970CF1-8149-068A-6841-A4337FCB52E2"/>
+</associations>
+</Column>
+<Column name="Dijelovi_Kataloski_broj" id="79633131-0D06-03D3-52E4-9B7FDE6369CC">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-30 23:18:35 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3AF7593A-F828-B2D1-3F71-AA5D7665797D" referredColumn="939E46ED-BD42-0660-3EA8-4F33A792558F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC9EFBCD-53AB-7579-66E2-0915D13C4678" name="Relation_22_PK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D26E205-521B-AE54-3B4E-888913EB150E"/>
+<colUsage columnID="79633131-0D06-03D3-52E4-9B7FDE6369CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D51D5AC0-76B1-5BD6-5BB9-55375FD2C0B4" name="Relation_22_Račun_FK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>47542327-33A3-32DB-8F6B-F41EA61ECA5B</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D26E205-521B-AE54-3B4E-888913EB150E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE16CD86-17F4-EE40-08BA-F77DC04D0B2D" name="Relation_22_Dijelovi_FK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>47542327-33A3-32DB-8F6B-F41EA61ECA5B</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79633131-0D06-03D3-52E4-9B7FDE6369CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

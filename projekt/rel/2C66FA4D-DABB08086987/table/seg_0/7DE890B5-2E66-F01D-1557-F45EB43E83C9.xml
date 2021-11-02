@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DE890B5-2E66-F01D-1557-F45EB43E83C9" name="Dio_za_servis">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>B504C2C9-4AFD-1042-7869-0CDD27193FEA</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dio_za_servis" id="DB6D603B-4F62-D79E-2F42-EEF0E3B7C20B">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>28E08402-C6DB-4511-A87C-FF0C06BCE528</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="6228025E-E51B-0124-D2CB-CB0F30C2F6E9">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>DFA9E2D8-FB54-F8B1-0B70-74FA69F165FA</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kupac_Kupac_ID" id="D272FBE9-9A4C-77A5-50F2-4B738AB1561E">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>380AFD0D-D748-B4CF-BF0B-6DDC2A2C3A91</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF5D95EE-CB4F-3A81-0F28-F40C871E21C8" referredColumn="2DCE7EA0-8EEE-347B-1A0D-F013E123A63B"/>
+</associations>
+</Column>
+<Column name="Kupac_Kupac_ID2" id="248E73D1-3501-5304-2E64-5AF514C86D68">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-30 23:18:35 UTC</createdTime>
+<generatorID>C706D9D8-EE14-3EF5-39C2-D9C77D5D9280</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD039757-67F2-814A-11B6-3979EEA8A1F8" referredColumn="2DCE7EA0-8EEE-347B-1A0D-F013E123A63B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06965183-AF83-E994-FDD6-B90C455FEBD1" name="Dio_za_servis_PK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>F57AC7D0-6FB5-7375-3EF9-50EB7320C9E9</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB6D603B-4F62-D79E-2F42-EEF0E3B7C20B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9AEB160-5C97-74A3-EFE0-7E7C6E2C3AD5" name="Dio_za_servis_Kupac_FK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>C01B68FD-F913-6DAA-8441-CE74F0D32658</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D272FBE9-9A4C-77A5-50F2-4B738AB1561E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B1886EF-C282-7CE4-B255-6D432B217A87" name="Dio_za_servis_Kupac_FKv1">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-30 23:18:35 UTC</createdTime>
+<generatorID>7F3AC487-D704-D34F-752D-C9B9AFC3B2B6</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="248E73D1-3501-5304-2E64-5AF514C86D68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

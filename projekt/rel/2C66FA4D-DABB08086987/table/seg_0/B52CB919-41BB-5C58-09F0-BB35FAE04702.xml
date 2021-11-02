@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B52CB919-41BB-5C58-09F0-BB35FAE04702" name="Servisi">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>D1A2E59B-BE86-B79D-E46E-AC86B71C4055</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Servis_Id" id="CBEE1F88-F190-9927-7F01-FA75FCFDE91C">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>12DD2A38-38AA-0660-AE54-BE56FDD7F9D1</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_pocetka_servisa" id="864FF037-DC57-C349-2184-728B310C3A9F">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>548E4C3B-93D7-A523-6784-1EDD098DCACF</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_zavrsetka_servvisa" id="D88772C6-9E28-31DC-8F5D-F1A35730D0D3">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>7B29F3A8-ECC2-4280-5EB7-EED7C2C4966F</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis_servisa" id="41ED5DC9-0779-9934-D99B-2FBE2AA27396">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>6A40D52A-9FA5-5FCA-B705-45D6968EAF19</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mjesto_servisiranja" id="00AB0AB3-6190-3465-DFD0-348A817591B9">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>D7291AB0-542E-47C2-FF9C-CFE69E3F8458</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Serviser_Serviser_ID" id="4C650371-44A1-D36D-7A26-B5EE433B16F8">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>2D76EB94-9A6B-B804-AF8C-AEED06940F09</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="852E9538-7A68-B3F7-8E73-EDE0EE59C502" referredColumn="B6FECC94-B2D7-BD41-3376-A728AD06A5F1"/>
+</associations>
+</Column>
+<Column name="Dio_za_servis_Dio_za_servis" id="7B28B13B-556F-8B90-0657-C204BF0C3962">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>DF9C9810-A444-C53F-3087-4E900A021E00</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDB3F602-8351-7595-EDA7-9E344ECEE358" referredColumn="DB6D603B-4F62-D79E-2F42-EEF0E3B7C20B"/>
+</associations>
+</Column>
+<Column name="Dio_za_servis_Kupac_ID" id="80366DE8-CD5D-C4C4-3EA7-27C34CA5FD4A">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>DF6594E0-8A9A-E966-4800-504A53D17633</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="204CCD8E-2859-CCF4-99EC-3D58602B05A3" name="Servisi_PK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>3763B2D9-3EF3-C04A-FCF5-A8288FCC6540</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBEE1F88-F190-9927-7F01-FA75FCFDE91C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91D42B1F-B47F-BE00-2A1D-8ADDF5C2C486" name="Servisi_Serviser_FK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>E5D388D8-155D-E5FC-A301-6AEE3237D7C5</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C650371-44A1-D36D-7A26-B5EE433B16F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2D3AAAC-A530-8B33-E7DA-8BBBDAD31547" name="Servisi_Dio_za_servis_FK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 17:08:54 UTC</createdTime>
+<generatorID>19B7BB55-C282-FDD0-917E-4BA3EE45FFBC</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B28B13B-556F-8B90-0657-C204BF0C3962"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

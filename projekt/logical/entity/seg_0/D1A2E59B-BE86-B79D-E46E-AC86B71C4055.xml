@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1A2E59B-BE86-B79D-E46E-AC86B71C4055" name="Servisi">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-14 13:44:56 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Servis_Id" id="12DD2A38-38AA-0660-AE54-BE56FDD7F9D1">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-14 13:45:06 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_pocetka_servisa" id="548E4C3B-93D7-A523-6784-1EDD098DCACF">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-14 13:46:27 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_zavrsetka_servvisa" id="7B29F3A8-ECC2-4280-5EB7-EED7C2C4966F">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-14 13:46:49 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opis_servisa" id="6A40D52A-9FA5-5FCA-B705-45D6968EAF19">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-14 14:20:06 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mjesto_servisiranja" id="D7291AB0-542E-47C2-FF9C-CFE69E3F8458">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-14 14:58:13 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serviser_ID" id="2D76EB94-9A6B-B804-AF8C-AEED06940F09">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-19 12:19:09 UTC</createdTime>
+<generatorID>E5D388D8-155D-E5FC-A301-6AEE3237D7C5</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<referedAttribute>19607CFF-BB3B-5346-7D70-D1A3CAE3C377</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dio_za_servis" id="DF9C9810-A444-C53F-3087-4E900A021E00">
+<createdBy>Gule</createdBy>
+<createdTime>2020-08-26 15:13:49 UTC</createdTime>
+<generatorID>19B7BB55-C282-FDD0-917E-4BA3EE45FFBC</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="true"/>
+</engineerTo>
+<referedAttribute>28E08402-C6DB-4511-A87C-FF0C06BCE528</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3763B2D9-3EF3-C04A-FCF5-A8288FCC6540" name="Servisi PK">
+<createdBy>Gule</createdBy>
+<createdTime>2020-06-14 13:45:17 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2C66FA4D-08A5-A5BB-AFC5-DABB08086987" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12DD2A38-38AA-0660-AE54-BE56FDD7F9D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
